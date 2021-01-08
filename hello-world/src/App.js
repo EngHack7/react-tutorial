@@ -13,6 +13,8 @@ import Refinput from './refs/Refs'
 import ParentRefs from './refs/ParentRefs'
 import ForwardRefs from './refs/ParentForwardRefs'
 import Portal from './refs/Portals'
+import ChaneStateWithtime from './refs/ChaneStateWithtime'
+import ClickCounter from './hoc/ClickCounter'
 function App() {
   return (
     <div className="App">
@@ -31,7 +33,9 @@ function App() {
       {/* <Refinput /> call ref from same class */}
       <ParentRefs /> call ref from another component 
       {/* <ForwardRefs /> easiest way to forward Ref from parent to child */}
-      {/* <Portal /> */}
+      {/* <Portal /> create new node dom in html App.js */}
+      {/* <ChaneStateWithtime /> PureComponent and memo functional exporting   */}
+      <ClickCounter />
     </div>
   );
 }

@@ -13,4 +13,4 @@ function Portals(props) {
     )
 }
 
-e
+export default Portals
