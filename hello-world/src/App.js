@@ -15,6 +15,9 @@ import ForwardRefs from './refs/ParentForwardRefs'
 import Portal from './refs/Portals'
 import ChaneStateWithtime from './refs/ChaneStateWithtime'
 import ClickCounter from './hoc/ClickCounter'
+import Context from './context/ClassA'
+import AxiosGet from './axios/PostsList'
+import PostAxios from './axios/PostMethod'
 function App() {
   return (
     <div className="App">
@@ -31,11 +34,14 @@ function App() {
       {/* <ListName /> renfering list on view by using map in component */}
       {/* <Form /> form and state and submit  */}
       {/* <Refinput /> call ref from same class */}
-      <ParentRefs /> call ref from another component 
+      {/* <ParentRefs /> call ref from another component  */}
       {/* <ForwardRefs /> easiest way to forward Ref from parent to child */}
       {/* <Portal /> create new node dom in html App.js */}
       {/* <ChaneStateWithtime /> PureComponent and memo functional exporting   */}
-      <ClickCounter />
+      {/* <ClickCounter /> higher order component hoc */}
+      {/* <Context /> */}
+      {/* <AxiosGet /> */}
+      <PostAxios />
     </div>
   );
 }

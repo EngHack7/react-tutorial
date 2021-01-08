@@ -24,8 +24,7 @@ const WithCounter = (WrappedComponent) =>{
                 />
            )
         }
-        
     }
-    return WithCounter // return class i declared to export (new class will not exported without this return)
+    return WithCounter //return class i declared to export (new class will not exported without this return)
 }
 export default WithCounter
